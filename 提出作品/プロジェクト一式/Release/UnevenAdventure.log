@@ -1,0 +1,40 @@
+﻿  attack.cpp
+  blockX.cpp
+  camera.cpp
+  enemyX.cpp
+  explosion.cpp
+  fade.cpp
+  field.cpp
+  game.cpp
+  input.cpp
+C:\Users\student\Documents\Visual Studio 2019\提出用\UnevenAdventure\code\input.cpp(30,48): warning C4100: 'hWnd': 引数は関数の本体部で 1 度も参照されません。
+C:\Users\student\Documents\Visual Studio 2019\提出用\UnevenAdventure\code\input.cpp(165,54): warning C4100: 'hWnd': 引数は関数の本体部で 1 度も参照されません。
+C:\Users\student\Documents\Visual Studio 2019\提出用\UnevenAdventure\code\input.cpp(165,38): warning C4100: 'hInstance': 引数は関数の本体部で 1 度も参照されません。
+  life.cpp
+  light.cpp
+  main.cpp
+C:\Users\student\Documents\Visual Studio 2019\提出用\UnevenAdventure\code\main.cpp(22,92): warning C4100: 'lpCmdLine': 引数は関数の本体部で 1 度も参照されません。
+C:\Users\student\Documents\Visual Studio 2019\提出用\UnevenAdventure\code\main.cpp(22,65): warning C4100: 'hInstancePrev': 引数は関数の本体部で 1 度も参照されません。
+  manager.cpp
+  marker.cpp
+  obb.cpp
+  object.cpp
+  object2D.cpp
+  object3D.cpp
+  objectX.cpp
+  pch.cpp
+  コンパイル中...
+  playerX.cpp
+  renderer.cpp
+C:\Users\student\Documents\Visual Studio 2019\提出用\UnevenAdventure\code\renderer.cpp(147,18): warning C4189: 'pKeyboard': ローカル変数が初期化されましたが、参照されていません
+  result.cpp
+  scene.cpp
+  sound.cpp
+  title.cpp
+  tutorial.cpp
+  ui.cpp
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 422 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  UnevenAdventure.vcxproj -> C:\Users\student\Documents\Visual Studio 2019\提出用\UnevenAdventure\UnevenAdventure.exe

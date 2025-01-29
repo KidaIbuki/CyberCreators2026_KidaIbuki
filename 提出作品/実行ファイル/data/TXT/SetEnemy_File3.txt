@@ -1,0 +1,154 @@
+#==============================================================================
+#
+# 敵のxファイルを読み込む [SetEnemy_File.txt]
+# Author : kida ibuki 
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+NUM_ENEMY = 4      モデルの種類(数)
+
+ENEMY_FILENAME = data/MODEL/ENEMY/EnemyNormal01.x	#[0]
+ENEMY_FILENAME = data/MODEL/ENEMY/EnemyNormal02.x   #[1]
+ENEMY_FILENAME = data/MODEL/ENEMY/EnemyNormal03.x   #[2]
+ENEMY_FILENAME = data/MODEL/ENEMY/EnemyBoss03.x     #[3]ステージ1のボス
+
+
+#------------------------------------------------------------------------------
+# オブジェクト情報
+#------------------------------------------------------------------------------
+MODEL_ENEMYSET
+
+	ENEMY_MODELSET
+		TYPE = 0
+		LIFE = 25                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 300.0 340.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 460.0 0.0 0.0		#奥にどれくらい動くか
+		MOVEFLONT = 280.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 0.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 0.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.6                   #x軸方向の速度
+		SPEED_Y = 0.0                   #y軸方向の速度
+	END_ENEMYSET
+
+	ENEMY_MODELSET
+		TYPE = 1
+		LIFE = 25                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 500.0 340.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 720.0 0.0 0.0		#奥にどれくらい動くか
+		MOVEFLONT = 480.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 0.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 0.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.5                   #x軸方向の速度
+		SPEED_Y = 0.0                   #y軸方向の速度
+	END_ENEMYSET
+
+	ENEMY_MODELSET
+		TYPE = 2
+		LIFE = 25                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 300.0 260.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 460.0 0.0 0.0		#奥にどれくらい動くか
+		MOVEFLONT = 280.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 0.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 0.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.7                   #x軸方向の速度
+		SPEED_Y = 0.0                   #y軸方向の速度
+	END_ENEMYSET
+
+	ENEMY_MODELSET
+		TYPE = 0
+		LIFE = 25                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 500.0 260.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 720.0 0.0 0.0		#奥にどれくらい動くか
+		MOVEFLONT = 480.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 0.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 0.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.5                   #x軸方向の速度
+		SPEED_Y = 0.0                   #y軸方向の速度
+	END_ENEMYSET
+
+	ENEMY_MODELSET
+		TYPE = 0
+		LIFE = 25                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 300.0 180.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 460.0 0.0 0.0		#奥にどれくらい動くか
+		MOVEFLONT = 280.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 0.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 0.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.6                   #x軸方向の速度
+		SPEED_Y = 0.0                   #y軸方向の速度
+	END_ENEMYSET
+
+	ENEMY_MODELSET
+		TYPE = 1
+		LIFE = 25                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 500.0 180.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 720.0 0.0 0.0		#奥にどれくらい動くか
+		MOVEFLONT = 480.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 0.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 0.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.5                   #x軸方向の速度
+		SPEED_Y = 0.0                   #y軸方向の速度
+	END_ENEMYSET
+
+	ENEMY_MODELSET
+		TYPE = 1
+		LIFE = 25                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 300.0 100.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 460.0 0.0 0.0		#奥にどれくらい動くか
+		MOVEFLONT = 280.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 0.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 0.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.5                   #x軸方向の速度
+		SPEED_Y = 0.0                   #y軸方向の速度
+	END_ENEMYSET
+
+	ENEMY_MODELSET
+		TYPE = 2
+		LIFE = 25                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 500.0 100.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 720.0 0.0 0.0		#奥にどれくらい動くか
+		MOVEFLONT = 480.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 0.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 0.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.7                   #x軸方向の速度
+		SPEED_Y = 0.0                   #y軸方向の速度
+	END_ENEMYSET
+
+
+	#============ボス==============================
+
+	ENEMY_MODELSET
+		TYPE = 3
+		LIFE = 250                      #敵の体力
+		DAMAGE = 20                     #敵の攻撃力
+		POS = 1150.0 40.0 0.0  
+		ROT = 0.0 0.0 0.0     
+		MOVEBACK = 1200.0 0.0 0.0        #奥にどれくらい動くか
+		MOVEFLONT = 1000.0 0.0 0.0       #手前にどれくらい動くか
+		MOVEUP = 0.0 60.0 0.0            #上にどれくらい動くか
+		MOVEDOWN = 0.0 20.0 0.0          #下にどれくらい動くか
+		SPEED_X = 0.8                   #x軸方向の速度
+		SPEED_Y = 0.6                   #y軸方向の速度
+	END_ENEMYSET
+
+
+END_MODEL_ENEMYSET

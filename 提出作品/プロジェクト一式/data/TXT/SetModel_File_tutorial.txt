@@ -1,0 +1,267 @@
+#==============================================================================
+#
+# xファイルを読み込む [SetObjectl_File.txt]
+# Author : kida ibuki
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+NUM_MODEL = 1					# パーツ数
+
+MODEL_FILENAME = data/MODEL/FIELD/BlockSoil002.x		#[0]歩く道用ブロック    １個のサイズは(20.0f,20.0f,20.0f);
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+OBJECTSET
+
+	MODELSET
+		TYPE = 0
+		POS = -120.0 0.0 0.0  
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -120.0 20.0 0.0  
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -120.0 40.0 0.0  
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -120.0 60.0 0.0  
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -120.0 80.0 0.0  
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -120.0 100.0 0.0  
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -100.0 0.0 0.0  
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -80.0 0.0 0.0  
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -60.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_MODELSET
+	
+	MODELSET
+		TYPE = 0
+		POS = -40.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -20.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 0.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 20.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_MODELSET
+	
+	MODELSET
+		TYPE = 0
+		POS = 40.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 60.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 80.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 100.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 120.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 140.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 140.0 20.0 0.0       #出っ張ってる
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 160.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 160.0 20.0 0.0    #出っ張ってる
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 160.0 40.0 0.0     #出っ張ってる
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 180.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 200.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 220.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 240.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 260.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 280.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 300.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 300.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 320.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 340.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 360.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 380.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 400.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 420.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 440.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 460.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 480.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 500.0 0.0 0.0
+		ROT = 0.0 0.0 0.0     
+	END_MODELSET
+
+	
+END_OBJECTSET
